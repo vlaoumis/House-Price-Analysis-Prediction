@@ -1,2 +1,11 @@
-# House-Price-Analysis-Prediction
-This project analyzes key factors affecting house prices and builds a predictive model using Linear Regression. Through data cleaning, visualization, and correlation analysis, it highlights important insights such as the strong impact of area, bathrooms, and amenities like air conditioning on property value
+House Price Analysis Project
+
+This project focuses on analyzing the key factors that influence house prices and developing a predictive model based on those factors. Using data analysis techniques and visualization tools, we explore relationships between different features and property prices to extract meaningful insights.
+
+The analysis reveals several important findings. There is a strong positive correlation between the size of a house (area) and its price, meaning that larger properties tend to be more expensive. Additionally, the number of bathrooms appears to have a greater impact on price compared to the number of bedrooms, indicating that functionality may be more valuable than sheer room count. Features such as air conditioning also contribute significantly to higher prices, while elements like parking availability and the number of floors further enhance property value.
+
+To model these relationships, a Linear Regression algorithm was implemented. The model was evaluated using Mean Absolute Error (MAE), providing a clear measure of prediction accuracy.
+
+Several visualizations were created to support the analysis and make the insights more interpretable. These include a correlation heatmap to understand feature relationships, a scatter plot illustrating the relationship between area and price, and a comparison plot between actual and predicted prices to evaluate model performance.
+
+Overall, this project demonstrates how data analysis and machine learning can be applied to real estate data in order to better understand market trends and support decision-making.
